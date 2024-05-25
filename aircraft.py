@@ -23,7 +23,7 @@ st.set_page_config(
 )
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 # Set up Google Gemini-Pro AI model
-gen_ai.configure(api_key="AIzaSyBb9YYJkW_5EyBtSsJ1QrzdLZCaoR3U5gs")
+gen_ai.configure(api_key="")
 gemini_model = gen_ai.GenerativeModel('gemini-pro')
 
 # Function to translate roles between Gemini-Pro and Streamlit terminology
